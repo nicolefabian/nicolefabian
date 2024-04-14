@@ -8,12 +8,15 @@ class AboutMe:
         self.location = "Auckland, New Zealand"
         self.languages_spoken = {"Tagalog": "native", "English": "fluent"}
         self.interests = ["Web Development", "UI/UX Design"]
-        self.current_learning = "Phase 1 of Microsoft Student Accelerator"
+        self.current_learning = "Phase 1 of MSA"
 
-   def welcome(self):
-        print(f"Hello, I'm {self.name}! " +
+  
+    def welcome(self):
+        message = (f"Hello, I'm {self.name}! " +
           f"I am a {self.status} of {self.studied} and currently in progress doing {self.current_learning}. " +
-          "Thank you for visiting :)")
+          "Thank you for visiting :)"
+        )
+        print(message)
 
 me = AboutMe()
 me.welcome()
