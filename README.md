@@ -14,8 +14,7 @@ class AboutMe:
     def welcome(self):
         message = (f"Hello, I'm {self.name}! " +
           f"I am a {self.status} of {self.studied} and currently in progress doing {self.current_learning}. " +
-          "Thank you for visiting :)"
-        )
+          "Thank you for visiting :)")
         print(message)
 
 me = AboutMe()
