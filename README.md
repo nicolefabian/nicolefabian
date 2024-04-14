@@ -1,4 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=git+add+aboutme.py)](https://git.io/typing-svg)
+ # 🌸 Hello, World 
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F78CCF&random=false&width=435&lines=git+add+aboutme.py)](https://git.io/typing-svg)
 
 ```python
 class AboutMe:
@@ -11,8 +13,10 @@ class AboutMe:
         self.interests = ["Web Development", "UI/UX Design"]
         self.current_learning = "Phase 1 of Microsoft Student Accelerator"
 
-    def welcome(self):
-        print(f"Hello, I'm {self.name}! I am a {self.status} of {self.studied} and currently in progress doing {self.current_learning} :)")
+   def welcome(self):
+        print(f"Hello, I'm {self.name}! " +
+          f"I am a {self.status} of {self.studied} and currently in progress doing {self.current_learning}. " +
+          "Thank you for visiting :)")
 
 me = AboutMe()
 me.welcome()
