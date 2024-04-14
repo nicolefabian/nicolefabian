@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=CA5894&random=false&width=429&height=33&lines=git+add+aboutme.py)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=1000&color=CA5894&random=false&width=429&height=33&lines=git+commit+-m+%22Added+aboutme.py%22)](https://git.io/typing-svg)
 ```python
 class AboutMe:
     def __init__(self):
