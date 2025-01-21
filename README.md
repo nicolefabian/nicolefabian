@@ -7,14 +7,14 @@ class AboutMe:
         self.studied = "Software and Web Development"
         self.location = "Auckland, New Zealand"
         self.languages_spoken = {"Tagalog": "native", "English": "fluent"}
-        self.interests = ["Web Development", "UI/UX Design"]
-        self.current_learning = "Phase 1 of MSA"
+        self.interests = ["Web Development", "Software Testing", "UI/UX Design"]
+        self.hobbies = ["reading", "playing video games with friends"]
 
-  
     def welcome(self):
-        message = (f"Hello, I'm {self.name}! " +
-          f"I am a {self.status} of {self.studied} and currently in progress doing {self.current_learning}. " +
-          "Thank you for visiting :)")
+        message = (f"Hello, I'm {self.name}! "
+                   f"I am a {self.status} of {self.studied} and currently exploring career opportunities. "
+                   f"I love {', '.join(self.hobbies)}. "
+                   "Thank you for visiting :)")
         print(message)
 
 me = AboutMe()
